@@ -30,7 +30,7 @@ object SimulazioneBarbiere {
 
   def terminaTagli {
 
-    Thread.sleep(20000)
+    Thread.sleep(5000)
 
     val tagliEffettuati = clienti.filter(c => c.servito).size
 
